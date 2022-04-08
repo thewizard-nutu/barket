@@ -56,17 +56,17 @@
 }
 
 /* clears the ‘X’ from Internet Explorer */
-input[type="search"]::-ms-clear {
+input[type="Busca"]::-ms-clear {
   @apply hidden h-0 w-0;
 }
-input[type="search"]::-ms-reveal {
+input[type="Busca"]::-ms-reveal {
   @apply hidden h-0 w-0;
 }
 /* clears the ‘X’ from Chrome */
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
+input[type="Busca"]::-webkit-Busca-decoration,
+input[type="Busca"]::-webkit-Busca-cancel-button,
+input[type="Busca"]::-webkit-Busca-results-button,
+input[type="Busca"]::-webkit-Busca-results-decoration {
   @apply hidden;
 }
 
